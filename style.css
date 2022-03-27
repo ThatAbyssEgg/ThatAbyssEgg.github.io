@@ -6,9 +6,18 @@
 
 body{
 	margin: 0;
-
 	font-family: "Lato", sans-serif;
 	font-size: 15px;
+	background-color: #242424;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 }
 
 .header{
@@ -123,4 +132,257 @@ header a{
 	border-color: #ffba00;
 	background: #fff;
 	color: #ffba00;
+}
+
+
+.main {
+	margin-bottom: auto;
+}
+
+/* Gallery */
+
+.gallery {
+	padding-top: 145px;
+	width: 100%;
+	position: relative;
+}
+
+.gallery:before {
+	content: "";
+	margin-left: -426px;
+	width: 250px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background-color: #ffba00;
+}
+
+.gallery h3 { 	
+	margin-bottom: 47px;
+	font-family: Montserrat, sans-serif;
+	font-size: 41px;
+	color: #ffba00;
+	text-align: center;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+.gallery h3 span {
+	display: inline-block;
+	margin-left: -30px;
+}
+
+.gallery__content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.gallery__content-item {
+	width: 22.013888%;
+}
+.gallery__content-item:first-child {				
+	width: 49.444444%;
+}
+.gallery__content-item:last-child {
+	width: 27.083333%;
+}
+
+.gallery__content-item img {
+	width: 100%;
+	display: block;
+}
+
+/* Hashtag */
+
+.hashtag {
+	padding: 104px 0 62px;
+	width: 100%;
+	position: relative;
+}
+
+.hashtag h3 {
+	margin-bottom: 49px;
+	color: #fff;
+	text-transform: none;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.hashtag__content {
+	margin: 0 auto;
+	width: 836px;
+	display: flex; 
+	justify-content: space-between;
+}
+
+.hashtag__coloumn {
+	width: 295px;
+}
+.hashtag__coloumn:first-child {
+	width: 346px;
+	padding-left: 69px;
+}
+.hashtag__coloumn:last-child {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hashtag__coloumn p {
+	font-family: Lato, sans-serif;
+	line-height: 41px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.hashtag__author {
+	margin-top: 18px;
+	font-family: Raleway, sans-serif;
+	line-height: 33px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	text-align: right;
+}
+
+.hashtag__coloumn h4 {
+	padding-left: 10px;
+	font-family: Lato, sans-serif;
+	line-height: 25px;
+	font-size: 25px;
+	color: #fff;
+	font-weight: 500;
+	border-left: 1px solid #fff;
+}
+
+.sm__links {
+	margin-top: 20px;
+	padding-left: 3px;
+	display: flex; 
+}
+
+.sm__link {
+	margin-right: 15px;
+	width: 56px;
+	height: 56px;
+	display: block;
+	line-height: 56px;
+	font-size: 32px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.sm__link:last-child {
+	margin: 0;
+}
+
+.hashtag__coloumn-box:first-child {
+	padding-top: 8px;
+}
+.hashtag__coloumn-box:first-child h4{
+	margin-left: 7px;
+	padding-left: 7px;
+	letter-spacing: 0.5px;
+}
+
+.hashtag__coloumn-box:last-child {
+	margin-bottom: 58px;
+}
+.hashtag__coloumn-box:last-child h4{
+	margin-left: 3px;
+}
+.urlink {
+	margin-top: 4px;
+	display: block;
+	font-family: Lato, sans-serif;
+	color: #ffba00;
+	font-size: 33px;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+/* Footer */
+.footer {
+	padding: 60px 0 76px;
+	font-family: Raleway, sans-serif;	
+	color: #fff;
+	font-weight: 700;
+	background-color: #483500;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 300ms;
+}
+
+.footer a:hover {
+	color: #ffba00;
+}
+
+.footer h4 {
+	margin-bottom: 39px;
+	line-height: 33px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.footer__coloumn:first-child h4 {
+	font-size: 25px;
+}
+
+.footer__coloumn p {
+	font-family: "Lato", sans-serif;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.footer__coloumn p span{
+	display: block;
+}
+
+.footer__center {
+	margin: 0 auto;
+	width: 1066px;
+	display: flex;
+	
+}
+
+.footer__coloumn {
+	display: inline-flex;
+	margin-left: 172px;
+}
+
+.footer__coloumn:first-child {
+	margin-left: 0;
+	width: 378px;
+	display: block;
+}
+
+.footer__menu-nav {
+	margin-left: 120px;
+}
+
+.footer__menu {
+	line-height: 29px;
+	font-size: 20px;
+	list-style: none;
+}
+
+.footer__menu-nav:first-child {
+	margin-left: 0;
+}
+
+.footer__menu-nav:last-child h4,
+.footer__menu-nav:last-child .footer__menu {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 }

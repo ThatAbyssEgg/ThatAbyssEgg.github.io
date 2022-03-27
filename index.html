@@ -1,53 +1,169 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<!-- Подключение шрифтов -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@700&family=Roboto&display=swap" rel="stylesheet">
 
+	<!-- Подключение Font Awesome 4.7.0 -->
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    
 	<!-- Подключение CSS файла -->
 	<link rel="stylesheet" href="style.css">
 
-	<!-- Подключение шрифтов -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 	<title>Pizzeria</title>
 </head>
-
 <body>
-	<header id="header" class="header">
-		<!-- Навигационное поле -->
-		<div class="nav">
-			<div class="logo">
-				<a class="logoname" href="#">#pizzeria.</a>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<!-- Навигационное поле -->
+			<div class="nav">
+				<div class="logo">
+					<a class="logoname" href="#">#pizzeria.</a>
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="#">Menu</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Contacts</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="menu">
-				<li>
-					<a href="#">Menu</a>
-				</li>
-				<li>
-					<a href="#">Blog</a>
-				</li>
-				<li>
-					<a href="#">About us</a>
-				</li>
-				<li>
-					<a href="#">Contacts</a>
-				</li>
-			</ul>
-		</div>
-		<!-- Grand openning -->
-		<div class="title">
-			<div class="text">
-				<h1>Grand</h1>
-				Opening
+			<!-- Grand openning -->
+			<div class="title">
+				<div class="text">
+					<h1>Grand</h1>
+					Opening
+				</div>
+				<div class="button">
+					Read More
+				</div>
+				<!-- <div class="rectangle"></div> -->
 			</div>
-			<div class="button">
-				Read More
+		</header>
+		<main class="main">
+			<section class="gallery">
+				<h3><span>gallery</span></h3>
+				<div class="gallery__content">
+					<div class="gallery__content-item">
+						<img src="img/gallery-1.jpg" alt="Full pizza">
+					</div>
+					<div class="gallery__content-item">
+						<img src="img/gallery-2.jpg" alt="Two pieces">
+					</div>
+					<div class="gallery__content-item">
+						<img src="img/gallery-3.jpg" alt="Three pieces">
+					</div>
+				</div>
+				<div class="hashtag">
+					<h3>#pizzeria.</h3>
+					<div class="hashtag__content">
+						<div class="hashtag__coloumn">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+							</p>
+							<div class="hashtag__author">
+								Name Name
+							</div>
+						</div>
+						<div class="hashtag__coloumn">
+							<div class="hashtag__coloumn-box">
+								<h4>
+									find us here
+								</h4>
+								<div class="sm__links">
+									<a href="##" class="sm__link fa fa-instagram"></a>
+									<a href="##" class="sm__link fa fa-facebook"></a>
+									<a href="##" class="sm__link fa fa-twitter"></a>
+									<a href="##" class="sm__link fa fa-whatsapp"></a>
+								</div>
+								
+							</div>
+							<div class="hashtag__coloumn-box">
+								<h4>
+									ask as here
+								</h4>
+								<a href="##" class="urlink">www.#pizzeria.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__center">
+				<div class="footer__coloumn">
+					<h4>About</h4>
+					<p>Lorem ipsum dolor sit amet, consec <span>tetur adipisicing elit, sed do eiusmod tempor</span> incididunt ultimam quantum</p>
+				</div>
+				<div class="footer__coloumn">
+					<nav class="footer__menu-nav">
+						<h4>Menu</h4>
+						
+						<ul class="footer__menu">
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Team</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Join us</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Ethic</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Goals</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer__menu-nav">
+						<h4>Shef</h4>
+						
+						<ul class="footer__menu">
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Team</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Join us</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Ethic</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Goals</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer__menu-nav">
+						<h4>Contact</h4>
+						
+						<ul class="footer__menu">
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Team</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Join us</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Ethic</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="##" class="footer__menu-link">Goals</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			<!-- <div class="rectangle"></div> -->
-		</div>
-	</header>
-	<footer></footer>
+		</footer>
+	</div>
 </body>
-
-</head>
 </html>
