@@ -21,7 +21,7 @@ body{
 .header{
 	height:  960px;
 
-	background: url('img/headerbg.png') no-repeat center top / cover;
+	background: url('img/headerbg.jpg') no-repeat center top / cover;
 }
 
 header a{
@@ -230,7 +230,7 @@ header a{
 
 /*	Блок 4 */
 .block4{
-    background: url('img/background-block4.png') no-repeat center top / cover;
+    background: url('img/background-block4.jpg') no-repeat center top / cover;
     height: 1355px;	
     z-index: 0;
 }
@@ -461,7 +461,7 @@ header a{
 	display: flex;
 	justify-content: right;
 
-	background: url('img/masterclass.png') no-repeat center top / cover;
+	background: url('img/masterclass.jpg') no-repeat center top / cover;
 
 	height:  1210px;
 }
