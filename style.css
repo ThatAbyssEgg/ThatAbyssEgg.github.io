@@ -191,6 +191,7 @@ header a{
 	padding-top: 15px;
 	padding-right: 100px;
 	background: #ffba00;
+	width: 800px;
 }
 
 .rec p:last-child{
@@ -202,23 +203,19 @@ header a{
 	margin-left:  125px;
 }
 
-/* Трейти блок  */
+/* Третий блок  */
 .info {
 	display: flex;
 	align-items: center;
-  	justify-content: center;
+  	justify-content: space-around;
 	background: #ffffff;
 
 	height: 375px;
 }
 
 .post {
-	margin-right: 135px;
+	width: 305px;
 	font-size: 17px;
-}
-
-.post:last-child{
-    margin-right: 0px;
 }
 
 .post h2 {
@@ -391,8 +388,12 @@ header a{
 	border: 2px solid white;
 	padding-left: 185px;
 	padding-top: 20px;
+
 }
 
+.rectangle2 p {
+	font-size: 25px;
+}
 /* Конец grid-сетки */
 
 .head-text5{
@@ -513,6 +514,8 @@ header a{
 
 .price_time {
 	float:  right;
+
+	width: 220px;
 
 	margin-right: 80px;
 	margin-top: 95px;
