@@ -3,4 +3,5 @@
 - Капуза Алексей
 - Станкевич Данила
 - Ефимчик Аркадий
+- 
 Git pages link: https://thatabyssegg.github.io/
