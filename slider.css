@@ -1,0 +1,79 @@
+.slider__box {
+    width: 100%;
+    position: relative;
+    background-color: #242424;
+}
+.slider {
+	margin: 0 auto;
+	width: 100%;
+	height: 475px;
+	position: relative;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 300ms ease;
+}
+.slider img.visible {
+	opacity: 1;
+}
+
+.btns {
+	margin: 10px auto;
+	width: 640px;
+	text-align: center;
+}
+
+.slider__box button {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    color: #FFF;
+	cursor: pointer;
+    background-color: rgba(24, 24, 24, 0.5);
+    transition: background-color 300ms;
+    outline: 0;
+    border: 0;
+}
+
+.slider__box button::before {
+    content: "";
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    border-bottom: 2px solid #FFF;
+    box-sizing: border-box;
+}
+
+.slider__box button:hover {
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+.slider__box button.next {
+    right: 0;
+}
+
+.slider__box button.next::before {
+    margin-left: -5px;
+    border-right: 2px solid #FFF;
+    transform: rotate(-45deg);
+}
+
+.slider__box button.prev {
+    left: 0;
+}
+
+.slider__box button.prev::before {
+    margin-left: 5px;
+    border-left: 2px solid #FFF;
+    transform: rotate(45deg);
+}

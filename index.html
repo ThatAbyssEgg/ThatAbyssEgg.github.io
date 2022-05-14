@@ -3,10 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 
-	<!-- Подключение CSS файла -->
+	<!-- Fontawesome 4.0 и 6.0 -->
+	<link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css" />
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
 
+	<!-- Подключение CSS файла -->
+	<link rel="stylesheet" href="slider.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="modal.css">
+
+	<!-- Шрифты -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@400;700;900&family=Roboto:wght@400;700&
 	display=swap" rel="stylesheet">
 
@@ -15,8 +21,6 @@
 
 <body>
 	<div class="main__wrapper">
-	<!-- часть Данилы -->
-		<!-- Первый блок(начальный) -->
 		<header id="header" class="header">
 			<div class="nav">
 				<div class="logo">
@@ -49,7 +53,6 @@
 
 		</header>
 
-		<!-- Второй блок -->
 		<section class="news">
 			<div class="bodytext">
 				<h2>What new?</h2>
@@ -65,7 +68,6 @@
 			<img class="imgpiz" src="img/pizza.jpg" alt="pizza">
 		</section>
 
-		<!-- Третий блок  -->
 		<section class="info">
 			<div class="post">
 				<h2>| new format</h2>
@@ -87,8 +89,6 @@
 			</div>
 		</section>
 
-	<!-- Часть Алексея -->
-		<!-- Четвёртый блок  -->
 		<section class="block4">
 
 			<div class="text">
@@ -158,7 +158,6 @@
 
 		</section>
 
-		<!-- Пятый блок  -->
 		<section class="block5">
 			<div class="head-text5">
 				<p> about our <b>concept</b></p>
@@ -183,12 +182,9 @@
 					<a href="#">Gallery</a>
 				</li>
 			</ul>
-
-
-
 		</section>
 
-		<!-- Шестой блок -->
+
 		<section class="block6">
 			<div class="cont">
 				<h2 class="masterclass_title">
@@ -207,22 +203,18 @@
 						12:00-15:00
 					</div>
 				</div>
-				<div class="apply_button">
-					<span>Apply</span>
+
+
+				<div class="apply_button"><span>Apply</span>
 				</div>
+
 			</div>
 		</section>
 
-	<!-- Часть Аркадия -->
 
-		<!-- Седьмой блок  -->
 		<section class="gallery">
 			<h3><span>gallery</span></h3>
-			<div class="gallery__content">
-				<img class="gallery__content-item" src="img/gallery-1.jpg" alt="Full pizza">
-				<img class="gallery__content-item" src="img/gallery-2.jpg" alt="Two pieces">
-				<img class="gallery__content-item" src="img/gallery-3.jpg" alt="Three pieces">
-			</div>
+			<div class="slider__box"></div>
 			<div class="hashtag">
 				<h3>#pizzeria.</h3>
 				<div class="hashtag__content">
@@ -258,7 +250,7 @@
 			</div>
 		</section>
 
-		<!-- Восьмой блок  -->
+
 		<footer class="footer">
 			<div class="footer__center">
 				<div class="footer__coloumn">
@@ -323,6 +315,10 @@
 				</div>
 			</div>
 		</footer>
+		<!-- <script src="js/base.js"></script> -->
+		<script src="plugins/modal.js"></script>
+		<script src="index.js"></script>
+		<script src="slider.js"></script>
 	</div>
 </body>
 

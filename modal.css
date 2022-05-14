@@ -1,0 +1,135 @@
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dws-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-form {
+    background: #fff;
+    padding: 30px;
+    padding-top: 0;
+    /*border-radius: 4px;*/
+    width: 70vh;
+    font-family: 'Lato';
+    background: rgba(36, 36, 36, 0.95);
+}
+.popup-form.active {
+    display: block;
+}
+
+.dws-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.dws-form {
+    display: block;
+    width: 100%;
+}
+.lbl-apply {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ffba00;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #ffba00;
+    padding: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    color:  #ffffff;
+    background: rgba(36, 36, 36, 0);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.text-input {
+    padding: 0 5px;
+    margin-top: 25px;
+    font-size: 14px;
+    color:  #ffba00;
+
+}
+
+.apply-btn {
+    transition: 0.3s; 
+    margin-top: 40px;
+    padding: 5px 20px;
+    background: #ffba00;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+    font-weight: 700;
+
+}
+
+.apply-btn:hover {
+    cursor: pointer;
+    color: #ffba00;
+    background: #ffffff;
+}
+
+
+.apply-btn.disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: #383838;
+}
+
+.incorrect {
+    display: none;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #ffba00;
+}
+
+.fa-xmark.close {
+    transition: 0.3s; 
+    color: rgba(255, 186, 0, 0.8);
+    display: block;
+    text-align: end;
+    height: 1px;
+    font-size:  30px;
+    margin-right: -23px;
+}
+
+.close:hover{
+    color: #fff;
+    cursor:  pointer;
+}
+
+.success{
+    font-size: 38px;
+    /*width:  200px;*/
+    color: #ffba00;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
